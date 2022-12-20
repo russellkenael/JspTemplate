@@ -1,0 +1,122 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, 'Helvetica';
+}
+
+section a {
+    text-decoration: none;
+}
+
+.checkout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    width: 70%;
+    font-weight: bold;
+    margin-left: 12%;
+}
+
+label,
+input {
+    padding: 5px;
+}
+
+input {
+    background-color: #e4e6e3;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    height: 45px;
+    size: 40px;
+    width: 80%;
+}
+
+input[type="button"] {
+    /* display: inline-block; */
+    border-radius: 13px;
+    background-color: #dc3545;
+    width: 90px;
+    height: 43px;
+    margin: 10px auto;
+    margin-top: 5px;
+    margin-left: 35%;
+    margin-bottom: 3%;
+    color: white;
+    padding: 3px;
+    font-size: 18px;
+    border: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="submit"] {
+    /* display: inline-block; */
+    border-radius: 13px;
+    background-color: #ee4e26;
+    width: 90px;
+    height: 43px;
+    margin: 10px auto;
+    margin-top: 5px;
+    margin-left: 35%;
+    margin-bottom: 3%;
+    color: white;
+    padding: 3px;
+    font-size: 18px;
+    border: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    /* display: inline-block; */
+    border-radius: 13px;
+    background-color: #ee4e26;
+    width: 90px;
+    height: 43px;
+    margin: 10px auto;
+    margin-top: 5px;
+    margin-left: 35%;
+    margin-bottom: 3%;
+    color: white;
+    padding: 3px;
+    font-size: 18px;
+    border: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.form_input {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    align-items: flex-start;
+    margin: 5px;
+    padding-bottom: 5px;
+}
+
+
+@media only screen and (max-width: 535px) {
+    input {
+        /* display: block; */
+        margin-left: auto;
+        margin-right: auto;
+        /* margin-bottom: 3%; */
+    }
+
+    .join h1 {
+        font-size: 50px;
+    }
+
+    label,
+    input {
+        padding: 6px;
+    }
+}
